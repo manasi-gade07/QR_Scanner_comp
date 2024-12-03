@@ -30,7 +30,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - CSS custom properties
-- JavaScript for dynamic functionality
 - Mobile-first workflow
 
 ### What I learned
@@ -39,7 +38,6 @@ This project helped me learn:
 
 - How to structure semantic HTML for better accessibility.
 - Using CSS for responsive design and custom styling.
-- JavaScript to enhance the functionality of a QR code scanner.
 
 ### Continued development
 
