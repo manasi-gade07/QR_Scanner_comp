@@ -3,20 +3,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Outfit", sans-serif;}
-body{
+    font-family: "Outfit", sans-serif;
+}
+body {
     background-color: hsl(212, 45%, 89%);
-    
+    display: flex;               /* Enable Flexbox on the body */
+    justify-content: center;     /* Horizontally center the qr-scanner */
+    align-items: center;         /* Vertically center the qr-scanner */
+    height: 100vh;               /* Ensure the body takes full height of the viewport */
+    margin: 0;                   /* Remove default margin from the body */
 }
-.qr-scanner{
-  
+
+.qr-scanner {
     max-width: 280px;
-    margin: auto;
-   margin-top: 80px;
-   padding: 13px;
-   border-radius:10px;
-   background-color:  hsl(0, 0%, 100%);
+    padding: 13px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
 }
+
 .qr img {
 
    width: 100%;
